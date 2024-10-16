@@ -1,0 +1,368 @@
+﻿
+
+/*Fontes para adicionar no layout*/
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('Gilroy-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-UltraLight';
+    src: url('Gilroy-UltraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Thin';
+    src: url('Gilroy-Thin.ttf');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('Gilroy-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('Gilroy-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('Gilroy-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('Gilroy-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Back';
+    src: url('Gilroy-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('Gilroy-Medium.ttf');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para a foto de fundo*/
+.fundo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.fundo-img {
+    width: 1700px;
+    height: 550px;
+    opacity: 8.0;
+    margin-left: -18%;
+    margin-top: -47px;
+}
+
+/* Estilos para a seção de motivos */
+.motivos {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+    width:120%;
+    height:500px;
+    margin-left:-10%; /*com porcentagem vai*/
+}
+
+    .motivos h2 {
+        font-size: 51px;
+        margin-bottom: 20px;
+        color: #004080;
+        margin-left: -800px;
+        line-height: 1.5; /* Espaçamento entre linhas */
+        font-family: 'Gilroy-Bold';
+        margin-top: 70px;
+    }
+
+    .motivos ul {
+        list-style: none;
+        padding: 0;
+        font-size: 32px;
+        font-family: 'Gilroy-SemiBold';
+        margin-left: 885px;
+        line-height: 1.8; /* Espaçamento entre linhas */
+        margin-top: -300px;
+        text-align: justify; /*deixa tudo alinhado */
+    }
+
+    .motivos li {
+        margin: 10px 0;
+    }
+
+
+
+.program1 {
+    width: 120%;
+    height: 500px;
+    margin-left: -10%; /*com porcentagem vai*/
+    background-color: #004080;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens no início */
+    align-items: center; /* Alinha verticalmente no centro */
+    box-sizing: border-box; /* Inclui padding dentro da largura */
+    margin-top:-8%;
+   
+}
+
+
+.programas {
+    font-size: 28px; /* Tamanho da fonte da primeira linha */
+    font-weight: normal; /* Peso da fonte normal */
+    color: #ffffff; /* Cor do texto */
+    margin-right:155px;
+    margin-top:-5%;
+    font-family:'Gilroy-SemiBold';
+}
+
+.para-estudar {
+    font-size: 50px; /* Tamanho da fonte da segunda linha */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Cor do texto */
+    margin-top: 155px; /* Espaço entre as linhas */
+    margin-left: 5px;
+}
+
+.program1 p {
+    font-size: 27px;
+    line-height: 1.8; /* Altura da linha para melhorar a legibilidade */
+    max-width: 600px; /* Limita a largura do texto */
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.program2 {
+    width: 120%;
+    height: 500px;
+    margin-left: -10%; /*com porcentagem vai*/
+    background-color: #ffffff;
+    color: #222b8e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.programas2 {
+    font-size: 24px; /* Tamanho da fonte da primeira linha */
+    font-weight: normal; /* Peso da fonte normal */
+    color: #ffffff; /* Cor do texto */
+    margin-left: 55px;
+    color: #222b8e;
+}
+
+.para-estudar2 {
+    font-size: 36px; /* Tamanho da fonte da segunda linha */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Cor do texto */
+    margin-top: 155px; /* Espaço entre as linhas */
+    margin-left: 5px;
+    color: #222b8e;
+}
+
+.program2 p {
+    font-size: 27px;
+    line-height: 1.8; /* Espaço das linnhas */
+    max-width: 600px; /* Limita a largura do texto */
+    margin-left: 100px;
+    text-align: justify;
+}
+
+
+
+/*Serviços */
+.servicos {
+    padding: 40px;
+    background-color: #002a5c;
+    color: #fff;
+    text-align: center;
+    width: 120%;
+    height: 500px;
+    margin-left: -10%; /*com porcentagem vai*/
+  
+}
+
+    .servicos h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        line-height: 1.5; /* Espaçamento entre linhas */
+    }
+
+.servico-items {
+    display: flex;
+    justify-content: space-around;
+    color: #f0f0f0;
+}
+
+.servico-item {
+    width: 30%;
+    font-size: 30px;
+}
+
+
+
+    /* Estilos para os links */
+    .servico-item a {
+        text-decoration: none; /* Remove o sublinhado */
+        color: #ffffff; /* Cor branca */
+        transition: color 0.3s ease; /* Transição suave para o hover */
+    }
+
+        /* Mudança de cor ao passar o mouse */
+        .servico-item a:hover {
+            color: #6bcff3; /* Pode ser uma cor mais clara ou diferente, como preferir */
+        }
+
+
+/*'Quem Somos?' */
+.Quem_somos {
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 120%;
+    height: 500px;
+    margin-left: -10%; /*com porcentagem vai*/
+}
+
+    .Quem_somos h2 {
+        font-size: 51px;
+        margin-bottom: 20px;
+        color: #004080;
+        margin-left: 650px;
+    }
+
+    .Quem_somos p {
+        font-size: 27px;
+        line-height: 1.8; /* Altura da linha para melhorar a legibilidade */
+        max-width: 800px; /* Limita a largura do texto */
+        margin-left: 700px;
+        text-align: justify;
+    }
+
+
+
+/*---------------------------------*/
+
+
+.contatos-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.contatos-form {
+    width: 50%;
+    margin-left:100px;
+
+}
+
+    .contatos-form h2 {
+        font-size: 36px;
+        color: #0F3D59;
+    }
+
+    .contatos-form h3 {
+        font-size: 20px;
+        color: #333;
+        letter-spacing: 4px;
+        font-weight: normal;
+    }
+
+    .contatos-form p {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea.form-control {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.btn-enviar {
+    background-color: #0F3D59;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-enviar:hover {
+        background-color: #1A5B81;
+    }
+
+.contatos-image img {
+    width: 540px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.paises-parceiros {
+    text-align: center;
+    margin-top: 50px;
+}
+
+    .paises-parceiros h2 {
+        color: #003366;
+        margin-bottom: 30px;
+    }
+
+.bandeiras {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /*espaçamento das bandeiras*/
+}
+
+    .bandeiras img {
+        width: 60px;
+        height: 40px;
+    }
